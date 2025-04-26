@@ -1,4 +1,4 @@
-package com.SenaiAna.Aluno_crud;
+package com.projeto.ana;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

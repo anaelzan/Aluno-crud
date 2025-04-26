@@ -1,7 +1,7 @@
-package com.SenaiAna.Aluno_crud.service;
+package com.projeto.ana.service;
 
-import com.SenaiAna.Aluno_crud.Interface.AlunoRepository;
-import com.SenaiAna.Aluno_crud.model.Aluno;
+import com.projeto.ana.Interface.AlunoRepository;
+import com.projeto.ana.model.Aluno;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

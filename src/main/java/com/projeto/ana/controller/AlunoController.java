@@ -1,7 +1,7 @@
-package com.SenaiAna.Aluno_crud.controller;
+package com.projeto.ana.controller;
 
-import com.SenaiAna.Aluno_crud.model.Aluno;
-import com.SenaiAna.Aluno_crud.service.AlunoService;
+import com.projeto.ana.model.Aluno;
+import com.projeto.ana.service.AlunoService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -24,7 +24,7 @@ public class AlunoController {
     public  Aluno criar (@RequestBody Aluno aluno){
         return  service.salvar(aluno);
     }
-    @GetMapping("/{id{")
+    @GetMapping("/{id}")
     public  Aluno buscar (@PathVariable Long id){
         return service.buscarPorId(id);
     }

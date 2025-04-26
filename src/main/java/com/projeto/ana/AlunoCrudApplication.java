@@ -1,4 +1,4 @@
-package com.SenaiAna.Aluno_crud;
+package com.projeto.ana;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
