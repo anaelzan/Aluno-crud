@@ -1,4 +1,4 @@
-package com.SenaiAna.Aluno_crud;
+package com.SenaiAna.Aluno_crud.model;
 
 
 import jakarta.persistence.GeneratedValue;

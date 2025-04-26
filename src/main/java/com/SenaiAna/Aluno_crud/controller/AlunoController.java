@@ -1,5 +1,7 @@
-package com.SenaiAna.Aluno_crud;
+package com.SenaiAna.Aluno_crud.controller;
 
+import com.SenaiAna.Aluno_crud.model.Aluno;
+import com.SenaiAna.Aluno_crud.service.AlunoService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
