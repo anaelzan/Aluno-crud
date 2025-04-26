@@ -33,8 +33,11 @@ public class AlunoController {
         Aluno alunoExistente = service.buscarPorId(id);
         if (alunoExistente == null) return null;
         alunoExistente.setNome(novoAluno.getNome());
+
         alunoExistente.setEmail(novoAluno.getEmail());
+
         alunoExistente.setTelefone(novoAluno.getTelefone());
+
         return service.salvar(alunoExistente);
 
     }
